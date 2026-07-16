@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Team Explorers</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<div class="container">
+
+    <nav>
+        <a href="index.html">HOME</a> |
+        <a href="explore.html">EXPLORE</a> |
+        <button onclick="toggleTheme()" style="margin-left: 15px; padding: 5px 10px; font-size: 14px; cursor: pointer;">🌓 Mode</button>
+    </nav>
+
+    <h1>Contact Our Team</h1>
+    <h2>We'd Love to Hear From You</h2>
+
+    <!-- Interactive Contact Form -->
+    <div class="about">
+        <form action="https://formbold.com/s/nasimtahir540@gmail.com" method="POST">            
+            <label for="name" style="font-weight: bold;">Your Name:</label>
+            <input type="text" name="name" id="name" required style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ccc;">
+
+            <label for="email" style="font-weight: bold;">Your Email Address:</label>
+            <input type="email" name="_replyto" id="email" required style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ccc;">
+
+            <label for="message" style="font-weight: bold;">Your Message:</label>
+            <textarea name="message" id="message" rows="5" required style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ccc; font-family: inherit;"></textarea>
+
+            <button type="submit" class="theme-toggle-btn" style="position: static; margin-top: 10px; align-self: flex-start; padding: 10px 20px;">✉️ Send Message</button>
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>
